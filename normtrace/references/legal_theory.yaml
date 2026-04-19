@@ -1,0 +1,270 @@
+# normtrace/references/legal_theory.yaml
+#
+# Administrative law sources grounding the NormTrace-IHR selection criterion.
+# Structured for programmatic access: the module reads these to build the
+# theoretical context injected into analytical prompts.
+#
+# Fields:
+#   id:         unique identifier used in code references
+#   cite_key:   BibTeX cite key (matches references.bib)
+#   author:     list of {family, given}
+#   year:       publication year
+#   title:      work title
+#   type:       book | article | chapter
+#   tradition:  legal tradition(s) addressed
+#   doctrine:   doctrine(s) the work is cited for in NormTrace
+#   quote:      key passage cited in methodology (max 3 sentences)
+#   relevance:  how this source grounds the selection criterion
+
+sources:
+
+  - id: vedel_delvolvé_1992
+    cite_key: vedel_delvolvé_1992
+    author:
+      - family: Vedel
+        given: Georges
+      - family: Delvolvé
+        given: Pierre
+    year: 1992
+    title: "Droit administratif"
+    edition: 12
+    publisher: Presses Universitaires de France
+    city: Paris
+    type: book
+    tradition: [civil_law, french]
+    doctrine: [principe_de_legalite, reserve_de_loi]
+    quote: >
+      Le principe de légalité exige que tout acte d'autorité publique
+      restreignant les droits des particuliers soit fondé sur une norme
+      juridique habilitante de rang approprié.
+    relevance: >
+      Grounds the selection criterion for provisions requiring coercive measures
+      on travellers or private parties. A ministerial circular or protocol does
+      not constitute a norme habilitante in the French administrative law tradition.
+
+  - id: garcía_enterría_fernández_2020
+    cite_key: garcía_enterría_fernández_2020
+    author:
+      - family: García de Enterría
+        given: Eduardo
+      - family: Fernández Rodríguez
+        given: Tomás-Ramón
+    year: 2020
+    title: "Curso de Derecho Administrativo"
+    edition: 18
+    publisher: Thomson Reuters Civitas
+    city: Cizur Menor
+    type: book
+    tradition: [civil_law, spanish, latin_american]
+    doctrine: [principio_de_legalidad, reserva_de_ley, potestad_sancionadora]
+    quote: >
+      La reserva de ley exige que las medidas que restrinjan derechos
+      fundamentales, incluyendo la cuarentena, la detención y la obligación
+      de someter a los particulares a exámenes médicos, cuenten con habilitación
+      legal expresa de rango formal.
+    relevance: >
+      Primary source for the Latin American civil law tradition. Grounds the
+      minimum_norm_rank requirement for Block D provisions (coercive measures
+      on travellers). Directly applicable to Mexico, Colombia, Peru, Chile,
+      and other civil law jurisdictions in the region.
+
+  - id: merkl_1931
+    cite_key: merkl_1931
+    author:
+      - family: Merkl
+        given: Adolf Julius
+    year: 1931
+    title: "Prolegomena einer Theorie des rechtlichen Stufenbaues"
+    book_title: "Gesellschaft, Staat und Recht"
+    city: Vienna
+    type: chapter
+    tradition: [civil_law, austrian, german]
+    doctrine: [Stufenbaulehre, Gesetzmässigkeit_der_Verwaltung]
+    quote: >
+      Jede Verwaltungshandlung bedarf einer Ermächtigung durch eine höherrangige
+      Norm der Rechtsordnung; fehlt diese Ermächtigung, so ist die Handlung
+      rechtlich nicht existent.
+    relevance: >
+      Grounds the four-link chain structure. Each link corresponds to a level
+      in the Stufenbau: the norm must authorise the actor, the actor must be
+      conferred authority, and the authority must be enforceable. An act without
+      a norm in the chain has no legal existence.
+
+  - id: kelsen_1967
+    cite_key: kelsen_1967
+    author:
+      - family: Kelsen
+        given: Hans
+    year: 1967
+    title: "Pure Theory of Law"
+    translator: Knight, Max
+    publisher: University of California Press
+    city: Berkeley
+    type: book
+    tradition: [civil_law, austrian]
+    doctrine: [Stufenbaulehre, Grundnorm]
+    quote: >
+      The validity of a norm can only be derived from another norm; a norm
+      that has no higher norm authorising it has no legal validity.
+    relevance: >
+      Theoretical foundation for the four-link chain. If the domestic norm
+      lacks authorisation from a higher norm (statute where the constitution
+      requires statute), the chain is broken regardless of its other links.
+
+  - id: dicey_1885
+    cite_key: dicey_1885
+    author:
+      - family: Dicey
+        given: Albert Venn
+    year: 1885
+    title: "Introduction to the Study of the Law of the Constitution"
+    publisher: Macmillan
+    city: London
+    type: book
+    tradition: [common_law, british]
+    doctrine: [rule_of_law, no_prerogative_without_law]
+    quote: >
+      Every official, from the Prime Minister down to a constable or a
+      collector of taxes, is under the same responsibility for every act done
+      without legal justification as any other citizen.
+    relevance: >
+      Common law equivalent of the principle of legality. Even in common law
+      systems, public authority to restrict private rights must have a legal
+      basis. Relevant for Commonwealth States Parties.
+
+  - id: loughlin_2010
+    cite_key: loughlin_2010
+    author:
+      - family: Loughlin
+        given: Martin
+    year: 2010
+    title: "Foundations of Public Law"
+    publisher: Oxford University Press
+    city: Oxford
+    type: book
+    tradition: [comparative, civil_law, common_law]
+    doctrine: [Rechtsstaat, état_de_droit, estado_de_derecho]
+    quote: >
+      The requirement that governmental power have a legal basis -- the
+      Rechtsstaat, état de droit, and estado de derecho principles -- is the
+      convergent expression across legal traditions of the same foundational
+      constraint on public authority.
+    relevance: >
+      Supports the cross-tradition applicability of the selection criterion.
+      The principle of legality is not specific to any one tradition; it is
+      the common foundation for assessing IHR domestic implementation across
+      all legal systems.
+
+  - id: gostin_sridhar_2014
+    cite_key: gostin_sridhar_2014
+    author:
+      - family: Gostin
+        given: Lawrence O.
+      - family: Sridhar
+        given: Devi
+    year: 2014
+    title: "Global Health and the Law"
+    journal: New England Journal of Medicine
+    volume: 370
+    issue: 18
+    pages: "1732-1740"
+    doi: "10.1056/NEJMra1314094"
+    type: article
+    tradition: [international_law, global_health]
+    doctrine: [IHR_implementation, domestic_law_gap]
+    quote: >
+      The IHR's effectiveness depends critically on domestic implementation;
+      the gap between international obligation and domestic legal capacity is
+      the central vulnerability of the global health security architecture.
+    relevance: >
+      Provides the global health governance justification for the normative
+      analysis approach. The gap identified by Gostin and Sridhar is precisely
+      what NormTrace-IHR measures.
+
+  - id: fidler_2005
+    cite_key: fidler_2005
+    author:
+      - family: Fidler
+        given: David P.
+    year: 2005
+    title: "From International Sanitary Conventions to Global Health Security: The New International Health Regulations"
+    journal: Chinese Journal of International Law
+    volume: 4
+    issue: 2
+    pages: "325-392"
+    type: article
+    tradition: [international_law, global_health]
+    doctrine: [IHR_legal_architecture, state_party_obligations]
+    relevance: >
+      Historical and legal analysis of the IHR as a binding international
+      legal instrument. Establishes the sui generis character of the IHR
+      under Article 21 of the WHO Constitution and the consequences for
+      domestic implementation.
+
+  - id: burci_vignes_2004
+    cite_key: burci_vignes_2004
+    author:
+      - family: Burci
+        given: Gian Luca
+      - family: Vignes
+        given: Claude-Henri
+    year: 2004
+    title: "World Health Organization"
+    publisher: Kluwer Law International
+    city: The Hague
+    type: book
+    tradition: [international_law]
+    doctrine: [WHO_constitution, IHR_binding_force]
+    relevance: >
+      Establishes the binding force of IHR obligations under Articles 21-22
+      of the WHO Constitution and the implications for States Parties that
+      have not entered reservations.
+
+  - id: alvarez_2005
+    cite_key: alvarez_2005
+    author:
+      - family: Alvarez
+        given: José E.
+    year: 2005
+    title: "International Organizations as Law-makers"
+    publisher: Oxford University Press
+    city: Oxford
+    type: book
+    tradition: [international_law]
+    doctrine: [IHR_sui_generis, enforcement_gap]
+    relevance: >
+      On the sui generis enforcement mechanism of the IHR: the absence of
+      an international tribunal combined with binding force makes domestic
+      implementation particularly consequential.
+
+  - id: who_ihr_2005
+    cite_key: who_ihr_2005
+    author:
+      - name: World Health Organization
+    year: 2024
+    title: "International Health Regulations (2005)"
+    edition: 3
+    note: "with 2014, 2022 and 2024 amendments"
+    publisher: World Health Organization
+    city: Geneva
+    url: "https://www.who.int/publications/i/item/9789241580496"
+    type: book
+    doctrine: [IHR_primary_source]
+    relevance: Primary source. All article references in this module cite this edition.
+
+  - id: who_espar
+    cite_key: who_espar
+    author:
+      - name: World Health Organization
+    year: 2025
+    title: "State Party Self-Assessment Annual Reporting (e-SPAR)"
+    publisher: World Health Organization
+    city: Geneva
+    url: "https://extranet.who.int/e-spar"
+    type: dataset
+    doctrine: [C1_scoring_reference]
+    relevance: >
+      Reference instrument for the C1 normative score. The NormTrace-IHR
+      scoring rubric is calibrated to the e-SPAR 1-5 scale to allow direct
+      comparison. The e-SPAR score used in any analysis must be retrieved
+      from this URL with the consultation date recorded.
