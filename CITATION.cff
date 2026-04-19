@@ -1,0 +1,91 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+title: "NormTrace-IHR (IHR 2005+): A systematic tool for assessing the domestic legal implementation of the International Health Regulations"
+version: 1.0.0
+date-released: "2025-01-01"
+doi: 10.5281/zenodo.XXXXXXX
+
+authors:
+  - family-names: "Santos-Dominguez"
+    given-names: "Adela B."
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "Postdoctoral Fellow, Swiss Excellence Government Scholarship (ESKAS), Geneva, Switzerland"
+
+abstract: >
+  NormTrace-IHR is an open-source web application that analyses whether a country's
+  domestic normative architecture genuinely enables compliance with the International
+  Health Regulations (IHR 2005, as amended through 2024). The tool performs an
+  automated discovery of the country's relevant normative corpus across multiple
+  sectors, applies a four-link enablement chain criterion (norm, actor, authority,
+  enforceability) to 29 selected IHR provisions grouped in seven analytical blocks,
+  and produces a scored normative assessment of IHR Core Capacity 1 comparable with
+  the WHO e-SPAR self-reporting instrument. Source documents are stored with
+  consultation dates and last-reform dates to enable assessment of analytical currency.
+  Output is available in English, Spanish, and French.
+
+keywords:
+  - International Health Regulations
+  - IHR compliance
+  - domestic legislation
+  - normative analysis
+  - global health governance
+  - e-SPAR
+  - health security
+  - preparedness
+  - legal informatics
+  - comparative law
+
+license: MIT
+
+repository-code: "https://github.com/adelasantosd/normtrace-ihr"
+
+url: "https://zenodo.org/record/XXXXXXX"
+
+references:
+  - type: software
+    title: "NormTrace-CRPD: A systematic tool for assessing domestic normative alignment with the Convention on the Rights of Persons with Disabilities"
+    authors:
+      - family-names: "Santos-Dominguez"
+        given-names: "Adela B."
+    year: 2024
+    doi: "10.5281/zenodo.CRPD-DOI-HERE"
+    notes: >
+      NormTrace-IHR is one instance of the NormTrace analytical framework.
+      The CRPD version applies the same core methodology to disability rights
+      legislation. Each version should be cited independently.
+
+  - type: article
+    title: "From International Sanitary Conventions to Global Health Security: The New International Health Regulations"
+    authors:
+      - family-names: "Fidler"
+        given-names: "David P."
+    year: 2005
+    journal: "Chinese Journal of International Law"
+    volume: 4
+    issue: 2
+    pages: "325-392"
+
+  - type: book
+    title: "International Health Regulations (2005)"
+    authors:
+      - name: "World Health Organization"
+    year: 2024
+    publisher: "World Health Organization"
+    city: "Geneva"
+    url: "https://www.who.int/publications/i/item/9789241580496"
+    notes: "Third edition with 2014, 2022 and 2024 amendments"
+
+  - type: article
+    title: "Global Health and the Law"
+    authors:
+      - family-names: "Gostin"
+        given-names: "Lawrence O."
+      - family-names: "Sridhar"
+        given-names: "Devi"
+    year: 2014
+    journal: "New England Journal of Medicine"
+    volume: 370
+    issue: 18
+    pages: "1732-1740"
+    doi: "10.1056/NEJMra1314094"
