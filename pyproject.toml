@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "normtrace-ihr"
+version = "1.0.0"
+description = "Analytical core for the NormTrace-IHR normative observatory"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Adela B. Santos-Dominguez" }
+]
+requires-python = ">=3.12"
+dependencies = [
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["normtrace*"]
