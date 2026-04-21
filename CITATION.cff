@@ -3,13 +3,12 @@ message: "If you use this software in your research, please cite it using the me
 type: software
 title: "NormTrace-IHR (IHR 2005+): A systematic tool for assessing the domestic legal implementation of the International Health Regulations"
 version: 1.0.0
-date-released: "2025-01-01"
-doi: 10.5281/zenodo.XXXXXXX
+date-released: "2025-04-21"
 
 authors:
   - family-names: "Santos-Dominguez"
     given-names: "Adela B."
-    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    orcid: "https://orcid.org/0000-0002-8691-0544"
     affiliation: "Postdoctoral Fellow, Swiss Excellence Government Scholarship (ESKAS), Geneva, Switzerland"
 
 abstract: >
@@ -48,8 +47,8 @@ references:
     authors:
       - family-names: "Santos-Dominguez"
         given-names: "Adela B."
-    year: 2024
-    doi: "10.5281/zenodo.CRPD-DOI-HERE"
+    year: 2026
+    doi: "https://doi.org/10.5281/zenodo.19676921"
     notes: >
       NormTrace-IHR is one instance of the NormTrace analytical framework.
       The CRPD version applies the same core methodology to disability rights
