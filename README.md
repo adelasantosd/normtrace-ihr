@@ -2,7 +2,7 @@
 
 **A systematic tool for assessing the domestic legal implementation of the International Health Regulations**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.19677846)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
 
@@ -198,7 +198,7 @@ The four-link enablement chain applies general principles of administrative law.
 
 If you use NormTrace-IHR in published research, please cite the Zenodo record:
 
-> Santos-Dominguez, A.B. (2025). *NormTrace-IHR (IHR 2005+): A systematic tool for assessing the domestic legal implementation of the International Health Regulations* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Santos-Dominguez, A.B. (2025). *NormTrace-IHR (IHR 2005+): A systematic tool for assessing the domestic legal implementation of the International Health Regulations* (Version v1.0.2). Zenodo. https://doi.org/10.5281/zenodo.19677846
 
 A `CITATION.cff` file is included in this repository for reference managers that support the Citation File Format.
 
