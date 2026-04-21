@@ -1,0 +1,46 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (contain API keys and passwords -- never upload these)
+.env
+.env.local
+.env.*.local
+
+# Node / frontend
+node_modules/
+dist/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
