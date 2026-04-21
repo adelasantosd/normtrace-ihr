@@ -24,8 +24,9 @@ NormTrace-IHR is one instance of the broader NormTrace analytical framework, whi
 
 | Version | International instrument | Zenodo |
 |---------|--------------------------|--------|
-| NormTrace-CRPD | Convention on the Rights of Persons with Disabilities | [10.5281/zenodo.CRPD](https://zenodo.org/record/CRPD-DOI) |
+| NormTrace-CRPD | Convention on the Rights of Persons with Disabilities | [10.5281/zenodo.19676921](https://zenodo.org/record/CRPD-DOI) |
 | NormTrace-IHR | International Health Regulations (IHR 2005+) | This repository |
+
 
 Both versions share the core methodology: a structured discovery of the country's domestic normative corpus, a multi-instrument analysis tracing coverage gaps and intersectoral fragmentation, and a scored assessment comparable with the relevant international monitoring instrument. Researchers using both versions should cite each independently, as the corpora and analytical criteria differ by instrument.
 
