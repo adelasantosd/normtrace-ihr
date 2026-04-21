@@ -39,7 +39,7 @@ license: MIT
 
 repository-code: "https://github.com/adelasantosd/normtrace-ihr"
 
-url: "https://zenodo.org/record/XXXXXXX"
+url: "https://doi.org/10.5281/zenodo.19677846"
 
 references:
   - type: software
