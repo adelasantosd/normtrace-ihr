@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19677846.svg)](https://doi.org/10.5281/zenodo.19677846)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.2-blue)](CHANGELOG.md)
 
 ---
 
