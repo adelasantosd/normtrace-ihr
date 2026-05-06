@@ -1,6 +1,14 @@
 # NormTrace-IHR (IHR 2005+)
 
-**A systematic tool for assessing the domestic legal implementation of the International Health Regulations**
+# NormTrace-IHR — Early Prototype
+
+> **Status:** Legacy early prototype.  
+> This repository documents an initial exploratory version of NormTrace-IHR. It is not the current methodological version of the project and should not be used as the active research dataset.
+
+The current NormTrace-IHR Mexico Pilot is being developed as a separate, curated legal-institutional mapping infrastructure focused on domestic legal internalisation of the International Health Regulations (2005), the 2024 IHR amendments, and the WHO Pandemic Agreement.
+
+This early prototype is preserved for transparency and version history.
+
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19677846.svg)](https://doi.org/10.5281/zenodo.19677846)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
